@@ -15,14 +15,6 @@ st.set_page_config(
 # Custom CSS for better styling
 st.markdown("""
 <style>
-.main-header {
-    text-align: center;
-    padding: 20px 0;
-    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
 
 .step-container {
     border: 2px solid #e0e0e0;
