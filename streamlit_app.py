@@ -69,7 +69,7 @@ st.markdown("""
 
 # Main title and captions
 st.markdown('<div class="main-header">', unsafe_allow_html=True)
-st.title("📱 コミュニケーションとメディア")
+st.title("コミュニケーションとメディア（pp.201-202）")
 st.caption("Created by Dit-Lab.(Daiki ITO)")
 st.caption("Supported by Tomoaki ATSUMI")
 st.markdown('</div>', unsafe_allow_html=True)
