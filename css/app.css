@@ -1,0 +1,45 @@
+.qhead{display:flex; justify-content:space-between; align-items:center; margin-bottom:12px}
+.card-q{border:1px solid var(--rule); background:var(--paper); padding:18px; margin-bottom:14px}
+.q-scene{font-size:1rem; font-weight:700; line-height:1.9}
+.choice4{display:grid; gap:8px; grid-template-columns:repeat(auto-fit,minmax(160px,1fr))}
+.choice4 .btn{text-align:left; line-height:1.65; padding:11px 13px}
+.choice4 .btn.correct{background:var(--ok-bg); border-color:var(--ok); color:var(--ok)}
+.choice4 .btn.wrong{background:var(--ng-bg); border-color:var(--ng); color:var(--ng)}
+.choice4.locked{pointer-events:none}
+.sel{width:100%; font-family:inherit; font-size:.95rem; padding:9px 11px; min-height:42px;
+  border:1px solid var(--ink-3); border-radius:2px; background:var(--paper); color:var(--ink)}
+input[type=range]{width:100%; accent-color:var(--accent); height:34px}
+.why{font-size:.85rem; color:var(--ink-2); line-height:1.85}
+.eqbox{font-family:var(--mono); font-size:1.02rem; font-weight:700; text-align:center; padding:14px;
+  border:1px solid var(--rule); background:var(--paper-2); line-height:1.8}
+.blankin{border:1.5px solid var(--accent); background:#fff; padding:6px 8px; text-align:center;
+  font-family:var(--mono); min-height:38px; font-size:.95rem; max-width:120px}
+.blankin.ok{border-color:var(--ok); background:var(--ok-bg)}
+.blankin.ng{border-color:var(--ng); background:var(--ng-bg)}
+table.tbl td .blankin{width:100%; max-width:none}
+
+/* --- 7-3 コミュニケーションとメディア --- */
+.timeline{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:8px}
+.timeline .e{border:1px solid var(--line);border-radius:3px;padding:10px;background:#fff;cursor:pointer;text-align:center}
+.timeline .e:hover{background:var(--warn-bg)}
+.timeline .e.on{border-color:var(--accent);border-width:2px;background:var(--warn-bg)}
+.timeline .e .y{font:700 .74rem/1.4 var(--mono);color:var(--muted)}
+.timeline .e .t{font-size:.92rem;font-weight:700;margin-top:3px}
+.matrix{border-collapse:collapse;width:100%;font-size:.86rem}
+.matrix th,.matrix td{border:1px solid var(--line);padding:8px;vertical-align:top}
+.matrix th{background:var(--paper-2);font-size:.78rem;color:var(--muted)}
+.matrix td{height:74px;cursor:pointer}
+.matrix td:hover{background:var(--warn-bg)}
+.matrix td .chip{display:inline-block;border:1px solid var(--accent);border-radius:12px;padding:2px 8px;
+  font-size:.78rem;margin:2px;background:#fff}
+.matrix td .chip.ng{border-color:var(--ng);color:var(--ng)}
+.mediapool{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+.mediapool .m{border:1px solid var(--ink-3);border-radius:14px;padding:6px 12px;background:#fff;cursor:pointer;font-size:.88rem}
+.mediapool .m.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.mediapool .m.used{opacity:.35;pointer-events:none}
+.msg{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fff;margin-top:8px;font-size:1rem}
+.msg .who{font-size:.76rem;color:var(--muted);margin-bottom:4px}
+.checklist{border:1px solid var(--line);border-radius:3px;overflow:hidden}
+.checklist > label{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border-top:1px solid var(--line);cursor:pointer}
+.checklist > label:first-child{border-top:0}
+.checklist input{margin-top:3px}

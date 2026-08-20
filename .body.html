@@ -1,0 +1,84 @@
+  <section class="step" id="step1">
+    <h2><span class="no">STEP 1</span>メディアの移り変わりをたどる</h2>
+    <p class="desc">それぞれの時代をクリックすると、何ができるようになったかが出ます。</p>
+    <div class="panel">
+      <div class="timeline" id="tlBox"></div>
+      <div class="note" id="tlNote" style="margin-top:12px">時代をクリックしてください。</div>
+      <hr class="sep">
+      <div id="q1Box"></div>
+      <div class="note" id="q1Note" style="margin-top:10px"></div>
+    </div>
+  </section>
+
+  <section class="step" id="step2">
+    <h2><span class="no">STEP 2</span>メディアの3つの意味</h2>
+    <p class="desc">「メディア」という言葉は、3つの意味で使われます。どれにあたるか選びましょう。</p>
+    <div class="panel">
+      <div class="tbl-scroll"><table class="tbl" id="mediaTable"></table></div>
+      <div id="mediaBox" style="margin-top:14px"></div>
+      <div class="note" id="mediaNote" style="margin-top:12px"></div>
+    </div>
+  </section>
+
+  <section class="step" id="step3">
+    <h2><span class="no">STEP 3</span>コミュニケーションを分類する</h2>
+    <p class="desc">下の手段を1つ選んでから、あてはまるマスをクリックします。<strong>同時にやりとりするか</strong>、<strong>相手は何人か</strong>で分けます。</p>
+    <div class="panel">
+      <div class="mediapool" id="poolBox"></div>
+      <div class="tbl-scroll" style="margin-top:12px"><table class="matrix" id="matBox"></table></div>
+      <div class="note" id="matNote" style="margin-top:12px"></div>
+      <div class="btn-row" style="margin-top:10px"><button class="btn" id="matReset">やり直す</button></div>
+    </div>
+  </section>
+
+  <section class="step" id="step4">
+    <h2><span class="no">STEP 4</span>文字だけのやりとりで起こること（問2）</h2>
+    <p class="desc">同じ文でも、受け取り方が変わります。ボタンで切りかえて比べてみましょう。</p>
+    <div class="panel">
+      <div class="btn-row" style="flex-wrap:wrap">
+        <button class="btn" data-v="0">文字だけ</button>
+        <button class="btn" data-v="1">絵文字あり</button>
+        <button class="btn" data-v="2">声で伝えたら</button>
+      </div>
+      <div id="msgBox" style="margin-top:10px"></div>
+      <div class="note" id="msgNote" style="margin-top:12px"></div>
+      <hr class="sep">
+      <div id="q2Box"></div>
+      <div class="note" id="q2Note" style="margin-top:10px"></div>
+    </div>
+  </section>
+
+  <section class="step" id="step5">
+    <h2><span class="no">STEP 5</span>情報の信憑性を確かめる</h2>
+    <p class="desc">見つけた情報をそのまま信じてよいか、チェックしてみましょう。</p>
+    <div class="panel">
+      <div class="note info" id="sampleNews" style="margin-bottom:12px"></div>
+      <div class="checklist" id="checkBox"></div>
+      <div class="note" id="checkNote" style="margin-top:12px"></div>
+      <hr class="sep">
+      <p class="qhead">生成AIを使うときの注意</p>
+      <div class="note warn">
+        生成AIが事実でない情報を、事実であるかのように答えてしまうことを<strong>ハルシネーション</strong>といいます。
+        日付・人名・統計データは特に起こりやすいので、公式サイトや報道機関など<strong>複数の信頼できる情報源</strong>で確かめましょう。
+        このように自分で真実を確かめることを<strong>ファクトチェック</strong>といいます。
+      </div>
+    </div>
+  </section>
+
+  <section class="step" id="glossary">
+    <h2><span class="no">用語</span>この節で出てくることば</h2>
+    <div class="panel"><div id="glossBox"></div></div>
+  </section>
+
+  <section class="step" id="wrap">
+    <h2><span class="no">まとめ</span>おさえておきたいこと</h2>
+    <div class="panel">
+      <ul class="bullets">
+        <li>メディアは<strong>音声 → 文字 → 印刷 → 電波（ラジオ・テレビ） → インターネット</strong>と発展してきた。口頭の伝達で止まってはいない。</li>
+        <li>メディアには<strong>表現のメディア</strong>（文字・音声・画像）、<strong>伝達のメディア</strong>（電話・テレビ・インターネット）、<strong>記録のメディア</strong>（紙・USBメモリ）の3つの意味がある。</li>
+        <li>コミュニケーションは「<strong>同期／非同期</strong>」と「<strong>1対1／1対多／多対多</strong>」で分類できる。</li>
+        <li>文字中心のやりとりでは<strong>表情や声のトーンなどの非言語情報が伝わりにくい</strong>ため、誤解が生じやすい。絵文字やスタンプはそれを補う工夫。</li>
+        <li>発信者の肩書きやフォロワー数だけで信頼性は判断できない。<strong>複数の情報源との照合</strong>と<strong>日付の確認</strong>が必要。</li>
+      </ul>
+    </div>
+  </section>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>コミュニケーションとメディア｜情報Ⅰ共通テスト対策問題集</title>
+<meta name="description" content="メディアの移り変わりをたどり、コミュニケーションの手段を「同時性」と「相手の数」で分類します。情報の信憑性の確かめ方も練習できます。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 fill=%22%2315181c%22/%3E%3Ctext x=%2216%22 y=%2222%22 font-size=%2218%22 font-family=%22monospace%22 fill=%22%23fff%22 text-anchor=%22middle%22%3E01%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<header class="app-header">
+  <div class="inner">
+    <span class="eyebrow">第 7 章　情報デザイン　7-3</span>
+    <h1>コミュニケーションとメディア（pp.201）</h1>
+    <p class="lead">メディアの移り変わりをたどり、コミュニケーションの手段を「同時性」と「相手の数」で分類します。情報の信憑性の確かめ方も練習できます。</p>
+    <p class="credit">Created by Dit-Lab.(Daiki ITO)　/　Supported by Tomoaki ATSUMI</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="step" id="step1">
+    <h2><span class="no">STEP 1</span>メディアの移り変わりをたどる</h2>
+    <p class="desc">それぞれの時代をクリックすると、何ができるようになったかが出ます。</p>
+    <div class="panel">
+      <div class="timeline" id="tlBox"></div>
+      <div class="note" id="tlNote" style="margin-top:12px">時代をクリックしてください。</div>
+      <hr class="sep">
+      <div id="q1Box"></div>
+      <div class="note" id="q1Note" style="margin-top:10px"></div>
+    </div>
+  </section>
+
+  <section class="step" id="step2">
+    <h2><span class="no">STEP 2</span>メディアの3つの意味</h2>
+    <p class="desc">「メディア」という言葉は、3つの意味で使われます。どれにあたるか選びましょう。</p>
+    <div class="panel">
+      <div class="tbl-scroll"><table class="tbl" id="mediaTable"></table></div>
+      <div id="mediaBox" style="margin-top:14px"></div>
+      <div class="note" id="mediaNote" style="margin-top:12px"></div>
+    </div>
+  </section>
+
+  <section class="step" id="step3">
+    <h2><span class="no">STEP 3</span>コミュニケーションを分類する</h2>
+    <p class="desc">下の手段を1つ選んでから、あてはまるマスをクリックします。<strong>同時にやりとりするか</strong>、<strong>相手は何人か</strong>で分けます。</p>
+    <div class="panel">
+      <div class="mediapool" id="poolBox"></div>
+      <div class="tbl-scroll" style="margin-top:12px"><table class="matrix" id="matBox"></table></div>
+      <div class="note" id="matNote" style="margin-top:12px"></div>
+      <div class="btn-row" style="margin-top:10px"><button class="btn" id="matReset">やり直す</button></div>
+    </div>
+  </section>
+
+  <section class="step" id="step4">
+    <h2><span class="no">STEP 4</span>文字だけのやりとりで起こること（問2）</h2>
+    <p class="desc">同じ文でも、受け取り方が変わります。ボタンで切りかえて比べてみましょう。</p>
+    <div class="panel">
+      <div class="btn-row" style="flex-wrap:wrap">
+        <button class="btn" data-v="0">文字だけ</button>
+        <button class="btn" data-v="1">絵文字あり</button>
+        <button class="btn" data-v="2">声で伝えたら</button>
+      </div>
+      <div id="msgBox" style="margin-top:10px"></div>
+      <div class="note" id="msgNote" style="margin-top:12px"></div>
+      <hr class="sep">
+      <div id="q2Box"></div>
+      <div class="note" id="q2Note" style="margin-top:10px"></div>
+    </div>
+  </section>
+
+  <section class="step" id="step5">
+    <h2><span class="no">STEP 5</span>情報の信憑性を確かめる</h2>
+    <p class="desc">見つけた情報をそのまま信じてよいか、チェックしてみましょう。</p>
+    <div class="panel">
+      <div class="note info" id="sampleNews" style="margin-bottom:12px"></div>
+      <div class="checklist" id="checkBox"></div>
+      <div class="note" id="checkNote" style="margin-top:12px"></div>
+      <hr class="sep">
+      <p class="qhead">生成AIを使うときの注意</p>
+      <div class="note warn">
+        生成AIが事実でない情報を、事実であるかのように答えてしまうことを<strong>ハルシネーション</strong>といいます。
+        日付・人名・統計データは特に起こりやすいので、公式サイトや報道機関など<strong>複数の信頼できる情報源</strong>で確かめましょう。
+        このように自分で真実を確かめることを<strong>ファクトチェック</strong>といいます。
+      </div>
+    </div>
+  </section>
+
+  <section class="step" id="glossary">
+    <h2><span class="no">用語</span>この節で出てくることば</h2>
+    <div class="panel"><div id="glossBox"></div></div>
+  </section>
+
+  <section class="step" id="wrap">
+    <h2><span class="no">まとめ</span>おさえておきたいこと</h2>
+    <div class="panel">
+      <ul class="bullets">
+        <li>メディアは<strong>音声 → 文字 → 印刷 → 電波（ラジオ・テレビ） → インターネット</strong>と発展してきた。口頭の伝達で止まってはいない。</li>
+        <li>メディアには<strong>表現のメディア</strong>（文字・音声・画像）、<strong>伝達のメディア</strong>（電話・テレビ・インターネット）、<strong>記録のメディア</strong>（紙・USBメモリ）の3つの意味がある。</li>
+        <li>コミュニケーションは「<strong>同期／非同期</strong>」と「<strong>1対1／1対多／多対多</strong>」で分類できる。</li>
+        <li>文字中心のやりとりでは<strong>表情や声のトーンなどの非言語情報が伝わりにくい</strong>ため、誤解が生じやすい。絵文字やスタンプはそれを補う工夫。</li>
+        <li>発信者の肩書きやフォロワー数だけで信頼性は判断できない。<strong>複数の情報源との照合</strong>と<strong>日付の確認</strong>が必要。</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="step">
+    <h2><span class="no">活用</span>授業・探究での使い方</h2>
+    <div class="use-note">
+      <h3>授業で</h3>
+      <ul>
+        <li>STEP 3 のマトリックスに、生徒が普段使っている連絡手段を当てはめさせる。</li>
+        <li>STEP 4 で同じ文章が絵文字の有無で印象が変わることを体験させる。</li>
+        <li>STEP 5 のチェックリストを使って、実際のニュースやSNSの投稿を確かめさせる。</li>
+      </ul>
+      <h3 style="margin-top:12px">探究で</h3>
+      <ul>
+        <li>自分の1日の連絡手段を記録し、同期・非同期の割合を調べる。</li>
+        <li>同じ出来事について複数のメディアの伝え方を比べ、違いを分析する。</li>
+        <li>生成AIの回答にハルシネーションがないか、実際にファクトチェックしてみる。</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="app-footer">
+  情報Ⅰ 共通テスト対策問題集（技術評論社）連動Webアプリ　/　Created by Dit-Lab.(Daiki ITO)　/　Supported by Tomoaki ATSUMI
+</footer>
+
+<script src="js/tools.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/terms.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
